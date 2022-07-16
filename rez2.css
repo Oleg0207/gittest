@@ -1,6 +1,10 @@
-h1 {
+р2h1 {
   color: brown;
 }
 p {
   color: blue;
+}
+h2 {
+  font-size: 50px;
+  text-align: justify;
 }

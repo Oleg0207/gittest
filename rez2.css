@@ -1,11 +1,38 @@
-р2h1 {
-  color: brown;
+html {
+  box-sizing: border-box;
 }
-p {
-  color: blue;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
-h2 {
+body {
+  margin: 0;
+  font-weight: 400;
+  background-color: rgb(255, 255, 255);
+}
+
+.container_title {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.cotainer_hed {
+  margin: 0;
+  min-height: 200px;
+  background-image: url(./fon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.my_photo {
+  max-width: 300px;
+  max-height: 200px;
+  opacity: 0, 5;
+  border-radius: 50%;
+}
+h1 {
   font-size: 50px;
-  text-align: justify;
 }
-/* asdfa */

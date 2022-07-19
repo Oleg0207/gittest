@@ -144,3 +144,6 @@ h2 {
     width: 10%;
   }
 }
+.adf {
+  grid-template: 0;
+}

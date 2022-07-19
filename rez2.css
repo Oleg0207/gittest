@@ -24,7 +24,7 @@ body {
 .cotainer_hed {
   margin: 0;
   min-height: 200px;
-  background-image: url(./fon.jpg);
+  background-image: url("./fon.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -86,17 +86,14 @@ h2 {
   max-width: 1000px;
   margin: 0 auto;
   justify-content: space-around;
+  border-radius: 10%;
 }
 
 .img_hobby {
   width: 7%;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .img_hobby_two {
-  width: 7%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 6%;
 }
 .burger {
   height: 65px;
@@ -118,4 +115,32 @@ h2 {
   width: 21px;
   height: 3px;
   margin-bottom: 4px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .my_photo {
+    max-width: 150px;
+    max-height: 100px;
+  }
+  .sp {
+    height: 4em;
+  }
+  .spn {
+    height: 4em;
+  }
+  .spnn {
+    height: 5em;
+  }
+  .img_hobby {
+    width: 10%;
+  }
+  .img_hobby_two {
+    width: 10%;
+  }
 }
